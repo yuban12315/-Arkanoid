@@ -1,4 +1,4 @@
-import THREE from "three.js"
+import THREE from "./js/three"
 let scene = new THREE.Scene();
 
 let camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 100);
@@ -14,12 +14,12 @@ renderer.setClearColor(0xFFFFFF, 1.0);
 
 document.body.appendChild(renderer.domElement);
 let geometry2 = new THREE.CubeGeometry(2,1,5);
-let material2 = new THREE.MeshBasicMaterial({color: 0x00ee00});
+let material2 = new THREE.MeshBasicMaterial({color: 0xeee200});
 let cube = new THREE.Mesh(geometry2, material2);
 scene.add(cube);
 var geometry = new THREE.Geometry();
 var material = new THREE.LineBasicMaterial( { vertexColors: true } );
-var color1 = new THREE.Color( 0x00ee00 )
+var color1 = new THREE.Color( 0xeee200 )
 console.log(color1)
 
 // 线的材质可以由2点的颜色决定

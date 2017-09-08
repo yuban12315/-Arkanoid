@@ -17,14 +17,14 @@
   },
   "homepage": "https://github.com/yuban12315/-Arkanoid#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "css-loader": "latest",
     "postcss-loader": "latest",
     "style-loader": "latest",
-    "webpack-dev-server": "latest"
+    "webpack-dev-server": "latest",
+    "babel-loader": "^7.1.2"
   },
   "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
     "three.js": "^0.77.1",
     "webpack": "^3.5.6"
   }
