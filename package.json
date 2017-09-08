@@ -1,17 +1,31 @@
 {
-  "name": "arkanoid",
-  "version": "0.0.0",
-  "private": true,
+  "name": "-arkanoid",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuban12315/-Arkanoid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuban12315/-Arkanoid/issues"
+  },
+  "homepage": "https://github.com/yuban12315/-Arkanoid#readme",
+  "devDependencies": {
+    "css-loader": "latest",
+    "postcss-loader": "latest",
+    "style-loader": "latest",
+    "webpack-dev-server": "latest"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "ejs": "~2.5.6",
-    "express": "~4.15.2",
-    "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "three.js": "^0.77.1",
+    "webpack": "^3.5.6"
   }
 }
