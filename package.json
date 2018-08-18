@@ -25,7 +25,8 @@
     "babel-loader": "^7.1.2"
   },
   "dependencies": {
-    "three.js": "^0.77.1",
-    "webpack": "^3.5.6"
+    "three.js": "latest",
+    "webpack": "latest",
+    "webpack-cli": "^3.1.0"
   }
 }
